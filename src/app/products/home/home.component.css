@@ -1,0 +1,140 @@
+p,h3{
+  margin: 0;
+}
+.container-buttons{
+  display: flex;
+  gap: 25px;
+}
+.container-percent{
+  #percent{
+    line-height: 30pt;
+  }
+}
+.jumbotron{
+  position: relative;
+  display: flex;
+  justify-content: start;
+  color: white;
+  h3{
+    font-size: 32pt;
+    font-weight: 900;
+  }
+  #kara-fade{
+    width: 400px;
+    height: 600px;
+    display: none;
+  }
+  #subtitle{
+    color: #ffdc98;
+    font-size: 12pt;
+    font-weight: 900;
+  }
+  #percent{
+    color: #bdb28b;
+    font-size: 32pt;
+    font-weight: 900;
+  }
+  #pay{
+    font-size: 12pt;
+    font-weight: 900;
+  }
+}
+@media(min-width:400px){
+  .jumbotron {
+    h3{
+      font-size: 50pt;
+      font-weight: 900;
+    }
+    #subtitle{
+      font-size: 16pt;
+    }
+    #percent{
+      font-size: 50pt;
+    }
+    #pay{
+      font-size: 16pt;
+    }
+  }
+  .container-percent{
+    #percent{
+      line-height: 50pt;
+    }
+  }
+  .container-buttons{
+    gap: 36px;
+  }
+}
+@media(min-width:720px){
+  .jumbotron {
+    padding-top: 12px;
+    h3{
+      font-size: 75pt;
+    }
+    #subtitle{
+      font-size: 24pt;
+    }
+    #percent{
+      font-size: 75pt;
+    }
+    #pay{
+      font-size: 24pt;
+    }
+  }
+  .container-percent{
+    padding-top: 3rem !important;
+    #percent{
+      line-height: 70pt;
+    }
+  }
+  .container-buttons{
+    padding-top: 2rem !important;
+  }
+}
+@media(min-width:1280px){
+  .jumbotron {
+    padding-top: 0px;
+    h3{
+      font-size: 75pt;
+    }
+    #kara-fade{
+      display: block;
+    }
+    #subtitle{
+      font-size: 24pt;
+    }
+    #percent{
+      font-size: 75pt;
+    }
+    #pay{
+      font-size: 24pt;
+    }
+  }
+  .container-percent{
+    #percent{
+      line-height: 110pt;
+    }
+  }
+}
+@media(min-width:1420px){
+  .jumbotron {
+    padding-top: 0px;
+    h3{
+      font-size: 85pt;
+    }
+    #subtitle{
+      font-size: 24pt;
+    }
+    #percent{
+      font-size: 85pt;
+    }
+    #pay{
+      font-size: 24pt;
+    }
+  }
+  .container-percent{
+    #percent{
+      line-height: 110pt;
+    }
+  }
+}
+
